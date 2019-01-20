@@ -72,18 +72,13 @@
 @include mediaSm {
   main {
     padding: 2rem;
-    #home h1 {
+    h1.lg-heading {
       margin-top: 10vh;
       font-size: 4rem;
     }
 
-    #home h2 {
-      font-size: 1.25rem;
-    }
-
-    .lg-heading {
-      margin-top: 1rem;
-      font-size: 5rem;
+    h2 {
+      font-size: 1.5rem;
     }
 
     .boxes > div {
