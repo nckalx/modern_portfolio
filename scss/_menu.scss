@@ -89,9 +89,10 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/portrait_250px.jpg");
+      background: url("../img/og-cropped.jpg");
       border-radius: 50%;
       border: solid 3px $secondary-color;
+      background-size: cover;
     }
   }
 
