@@ -60,16 +60,49 @@
 
     <main id="contact">
       <h1 class="lg-heading">Contact <span class="text-secondary">Me</span></h1>
-      <h2 class="sm-heading">This is how you can reach me...</h2>
+      <h2 class="sm-heading">Let's get in touch...</h2>
 
       <div class="boxes">
-        <div><span class="text-secondary">Email:</span> nick@blank.com</div>
+        <form
+          name="contact-form"
+          method="POST"
+          action="https://formspree.io/naalexander@crimson.ua.edu"
+        >
+          <div class="contact-me">
+            <label>Email Address <input name="_gotcha"/></label>
+          </div>
+
+          <div>
+            <input class="contact-form-input" type="text" name="name" placeholder="name" />
+          </div>
+
+          <div>
+            <input class="contact-form-input" type="email" name="email" placeholder="email" />
+          </div>
+
+          <div>
+            <textarea
+              id="message" 
+              class="contact-form-input" 
+              name="message"
+              id="contact-form-message"
+              placeholder="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <div>
+            <button id="submit" class="contact-form-input" type="submit" class="btn-submit">Submit</button>
+          </div>
+        </form>
+        <!-- <div><span class="text-secondary">Email:</span> nick@blank.com</div>
         <div><span class="text-secondary">Phone:</span> 555-555-5555</div>
         <div>
           <span class="text-secondary">Address:</span> 1234 Main Street,
           Maintown MA 02101
         </div>
-      </div>
+      </div> -->
     </main>
 
     <footer id="main-footer">Copyright &copy; 2019</footer>
