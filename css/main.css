@@ -315,8 +315,9 @@ form div.contact-me {
       font-size: 1.5rem; }
     main div.bio > p {
       font-size: 1rem; }
-    main .contact-form-input {
-      width: 20rem;
-      max-height: 15rem; }
+  main#contact .boxes .contact-form-input {
+    width: 20rem;
+    max-height: 15rem;
+    font-size: 1.2rem; }
   .projects {
     grid-template-columns: 1fr; } }
